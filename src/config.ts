@@ -48,7 +48,6 @@ export const CONFIG: AppConfig = {
             routes.SIGN_IN,
             routes.GITHUB_OAUTH_CB,
             routes.FAQ,
-            routes.DONATE,
         ],
     },
 
@@ -1267,7 +1266,6 @@ export const CONFIG: AppConfig = {
         [routes.SIGN_IN.id]: signIn,
         [routes.GITHUB_OAUTH_CB.id]: githubOauth,
         [routes.FAQ.id]: faq,
-        [routes.DONATE.id]: donate,
     },
 
     // DOM root element (or ID)

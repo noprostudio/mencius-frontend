@@ -1,6 +1,6 @@
 import type { Route } from "@thi.ng/router";
 import type { AppContext } from "../api";
-import { ABOUT, CONTACT, FAQ, DONATE } from "../routes";
+import { ABOUT, CONTACT, FAQ } from "../routes";
 import { withSize, M_CHAR, GITHUB } from "./icons";
 import { defaultRouteLink, routeLink } from "./route-link";
 import { externalLink } from "./external-link";
@@ -16,7 +16,6 @@ export function footer(ctx: AppContext) {
         [ABOUT, "About"],
         [CONTACT, "Contact"],
         [FAQ, "FAQ"],
-        [DONATE, "Donate"],
     ];
     return [
         "footer",
