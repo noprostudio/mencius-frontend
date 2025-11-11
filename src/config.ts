@@ -17,7 +17,6 @@ import { editEntry } from "./components/edit-entry";
 import { signIn } from "./components/sign-in";
 import { githubOauth } from "./components/github-oauth";
 import { faq } from "./components/faq";
-import { donate } from "./components/donate";
 import * as fx from "./effects";
 import * as ev from "./events";
 import * as routes from "./routes";
