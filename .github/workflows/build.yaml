@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
         with:
           persist-credentials: false
 
@@ -27,7 +27,7 @@ jobs:
           yarn build
 
       - name: Checkout Host Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
         with:
           repository: noprostudio/noprostudio.github.io
           token: ${{ secrets.GH_PAT }}
